@@ -1,0 +1,53 @@
+# Environments
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+/lib/
+/lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv
+venv/
+ENV/
+
+# Database & Cache
+*.db
+*.sqlite3
+novel_translator.db
+backend/cache/translated_panels/*.jpg
+!backend/cache/translated_panels/.gitkeep
+
+# Node / Next.js
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+frontend/out/
+
+# Vercel
+.vercel
+frontend/.vercel
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
